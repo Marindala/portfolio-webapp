@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  font-family: roboto, sans-serif;
+  color: #030303;
+  line-height: 1.6;
+  min-width: 300px;
+}
+
+h3 {
+  font-family: "Nunito Sans", sans-serif;
+}
+h2 {
+  color: #683b21;
+  font-family: "Nunito Sans", sans-serif;
+}
+p {
+  font-size: 16px;
+}
+.semibold {
+  font-weight: 600;
+}
+
+.logo-argentinaprograma {
+  margin-left: 1.85%;
+}
+
+.logo-argentinaprograma > img {
+  max-height: 0.8rem;
+  margin-right: 3px;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  background: #edf2f6;
+}
+
+nav {
+  display: flex;
+  margin: 0% 1.85%;
+  flex-grow: 1;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 1%;
+}
+
+.nav-link {
+  color: #030303;
+  text-decoration: none;
+  padding: 0.2em;
+}
+
+.title {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: clamp(0.8rem, 3vw, 2rem);
+  position: absolute;
+  text-align: center;
+  color: #edf2f6;
+  align-self: flex-end;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  background-color: gray;
+}
+.hero-image {
+  max-width: 100%;
+}
+
+.thumbnail {
+  position: absolute;
+  transform: translateY(-50%);
+  margin-left: 1.85%;
+}
+
+.thumbnail > img {
+  width: 12vw;
+  min-width: 6rem;
+  background-color: #edf2f6;
+  border-radius: 50%;
+  max-width: 9rem;
+}
+
+header {
+  margin-bottom: 3.8rem;
+}
+
+main {
+  margin: 0% 1.85%;
+}
+
+.card-container {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  /* display: flex;
+  justify-content: space-around; */
+}
+.card {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  align-items: center;
+}
+.card-logo > img {
+  max-width: 100px;
+}
+
+.card-paragraph {
+  color: gray;
+}
+
+.bar-info {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bar-bg {
+  height: 14px;
+  background-color: lightgray;
+}
+#html-percentage {
+  position: absolute;
+  height: 14px;
+  width: 70%;
+  background-color: gray;
+}
+#css-percentage {
+  position: absolute;
+  height: 14px;
+  width: 50%;
+  background-color: gray;
+}
+#javascipt-percentage {
+  position: absolute;
+  height: 14px;
+  width: 60%;
+  background-color: gray;
+}
+#ingles-percentage {
+  position: absolute;
+  height: 14px;
+  width: 90%;
+  background-color: gray;
+}
+
+@media screen and (max-width: 600px) {
+  .top-bar {
+    font-size: 12px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .logo-argentinaprograma > img {
+    max-height: 0.6rem;
+    margin-right: 2px;
+  }
+  .card-main {
+    font-size: 0.9rem;
+  }
+  .bar-info {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  header {
+    margin-bottom: 5rem;
+  }
+}
