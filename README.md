@@ -1,5 +1,5 @@
 # Portfolio Web
-Trabajo práctico para "Argentina Programa".  
+Trabajo práctico de "Argentina Programa".  
 Segunda etapa: #YoProgramo.
 
 ## Información General
