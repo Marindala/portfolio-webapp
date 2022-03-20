@@ -5,7 +5,26 @@ body {
   line-height: 1.6;
   min-width: 300px;
 }
-
+.bi {
+  /* float: right; */
+  margin-right: 10px;
+  text-align: center;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  color: #157e00;
+  border-radius: 50%;
+  font-size: 12px;
+}
+.hicon.bi {
+  background-color: #ffffff;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.bi:hover {
+  color: #a3077c;
+}
 h3 {
   font-family: "Nunito Sans", sans-serif;
 }
@@ -50,13 +69,17 @@ nav {
   padding: 0.2em;
 }
 
+.title-edit {
+  position: absolute;
+  text-align: center;
+  align-self: flex-end;
+  line-height: 4em;
+}
 .title {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: clamp(0.8rem, 3vw, 2rem);
-  position: absolute;
-  text-align: center;
   color: #edf2f6;
-  align-self: flex-end;
+  display: inline-block;
 }
 
 .hero {
@@ -90,6 +113,10 @@ main {
   margin: 0% 1.85%;
 }
 
+.edit-control {
+  margin: 10px 0px;
+}
+
 .card-container {
   display: grid;
   gap: 2rem;
@@ -99,6 +126,11 @@ main {
   display: grid;
   grid-template-columns: 130px 1fr;
   align-items: center;
+}
+.card-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 }
 .card-logo > img {
   max-width: 100px;
@@ -118,6 +150,12 @@ main {
   height: 14px;
   background-color: lightgray;
   min-width: 250px;
+  margin-bottom: 10px;
+}
+
+.bar-info > h3 {
+  display: flex;
+  align-items: center;
 }
 
 #html-percentage {
