@@ -146,45 +146,11 @@ main {
   justify-content: space-between;
 }
 
-.bar-bg {
-  height: 14px;
-  background-color: lightgray;
-  min-width: 250px;
-  margin-bottom: 10px;
-}
-
 .bar-info > h3 {
+  font-size: 14px;
   display: flex;
   align-items: center;
-}
-
-#html-percentage {
-  position: absolute;
-  height: 14px;
-  min-width: 232.61px;
-  width: 70%;
-  background-color: gray;
-}
-#css-percentage {
-  position: absolute;
-  height: 14px;
-  min-width: 166.15px;
-  width: 50%;
-  background-color: gray;
-}
-#javascipt-percentage {
-  position: absolute;
-  height: 14px;
-  min-width: 199.38px;
-  width: 60%;
-  background-color: gray;
-}
-#ingles-percentage {
-  position: absolute;
-  height: 14px;
-  min-width: 270px;
-  width: 90%;
-  background-color: gray;
+  margin-bottom: -10px;
 }
 
 .proyect-container {
@@ -236,4 +202,9 @@ main {
   header {
     margin-bottom: 5rem;
   }
+}
+
+
+.progress-bar{
+  width: 100%;
 }
