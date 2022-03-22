@@ -1,0 +1,211 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    font-family: roboto, sans-serif;
+    color: #030303;
+    line-height: 1.6;
+    min-width: 300px;
+  }
+  .bi {
+    /* float: right; */
+    margin-right: 10px;
+    text-align: center;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    color: #157e00;
+    border-radius: 50%;
+    font-size: 12px;
+  }
+  .hicon.bi {
+    background-color: #ffffff;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .bi:hover {
+    color: #a3077c;
+  }
+  h3 {
+    font-family: "Nunito Sans", sans-serif;
+  }
+  h2 {
+    color: #683b21;
+    font-family: "Nunito Sans", sans-serif;
+  }
+  p {
+    font-size: 16px;
+  }
+  .semibold {
+    font-weight: 600;
+  }
+  
+  .logo-argentinaprograma {
+    margin-left: 1.85%;
+  }
+  
+  .logo-argentinaprograma > img {
+    max-height: 0.8rem;
+    margin-right: 3px;
+  }
+  
+  .top-bar {
+    display: flex;
+    align-items: center;
+    background: #edf2f6;
+  }
+  
+  nav {
+    display: flex;
+    margin: 0% 1.85%;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 1%;
+  }
+  
+  .nav-link {
+    color: #030303;
+    text-decoration: none;
+    padding: 0.2em;
+  }
+  
+  .title-edit {
+    position: absolute;
+    text-align: center;
+    align-self: flex-end;
+    line-height: 4em;
+  }
+  .title {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: clamp(0.8rem, 3vw, 2rem);
+    color: #edf2f6;
+    display: inline-block;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+  }
+  .hero-image {
+    max-width: 100%;
+  }
+  
+  .thumbnail {
+    position: absolute;
+    transform: translateY(-50%);
+    margin-left: 1.85%;
+  }
+  
+  .thumbnail > img {
+    width: 12vw;
+    min-width: 6rem;
+    background-color: #edf2f6;
+    border-radius: 50%;
+    max-width: 9rem;
+  }
+  
+  header {
+    margin-bottom: 3.8rem;
+  }
+  
+  main {
+    margin: 0% 1.85%;
+  }
+  
+  .edit-control {
+    margin: 10px 0px;
+  }
+  
+  .card-container {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+  .card {
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    align-items: center;
+  }
+  .card-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .card-logo > img {
+    max-width: 100px;
+  }
+  
+  .card-paragraph {
+    color: gray;
+  }
+  
+  .bar-info {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .bar-info > h3 {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin-bottom: -10px;
+  }
+  
+  .proyect-container {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+  
+  .card-proyect {
+    min-width: 250px;
+    height: fit-content;
+  }
+  .proyect-hero {
+    font-size: 0.8rem;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    min-width: 250px;
+    padding-top: 10px;
+    background-color: lightblue;
+  }
+  .proyect-hero > img {
+    max-height: 100px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .top-bar {
+      font-size: 12px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 14px;
+    }
+    .logo-argentinaprograma > img {
+      max-height: 0.6rem;
+      margin-right: 2px;
+    }
+    .card-main {
+      font-size: 0.9rem;
+    }
+    .bar-info {
+      font-size: 12px;
+    }
+  }
+  
+  @media screen and (min-width: 950px) {
+    header {
+      margin-bottom: 5rem;
+    }
+  }
+  
+  
+  .progress-bar{
+    width: 100%;
+  }
